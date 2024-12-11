@@ -12,28 +12,27 @@ import java.time.Duration;
 import java.util.Properties;
 
 public class BaseTest {
-    public  WebDriver driver;
+    public WebDriver driver;
 
     public WebDriver initializeDriver() throws IOException {
 
         //properties class
-        Properties pro=new Properties();
-        FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"//src//main//java//AnshAcademy//resources//GlobalData.properties");
+        Properties pro = new Properties();
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//src//main//java//AnshAcademy//resources//GlobalData.properties");
         pro.load(fis);
-        String browserName=pro.getProperty("browser");
+        String browserName = pro.getProperty("browser");
 
-        if (browserName.equalsIgnoreCase("chrome")){
+        if (browserName.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver=new ChromeDriver();
+            driver = new ChromeDriver();
 
-        }
-        else if (browserName.equalsIgnoreCase("firefox")) {
+        } else if (browserName.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
-            driver=new FirefoxDriver();
+            driver = new FirefoxDriver();
 
         } else if (browserName.equalsIgnoreCase("edge")) {
             WebDriverManager.edgedriver().setup();
-            driver=new EdgeDriver();
+            driver = new EdgeDriver();
 
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -41,11 +40,12 @@ public class BaseTest {
 
         return driver;
     }
-  public  void launchApplication() throws IOException {
 
-        driver=initializeDriver();
+    public void launchApplication() throws IOException {
 
-  }
+        driver = initializeDriver();
+
+    }
 
 
 }

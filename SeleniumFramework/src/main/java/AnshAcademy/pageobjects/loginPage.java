@@ -10,13 +10,13 @@ public class loginPage {
 
     @FindBy(name = "username")
     WebElement useremail;
-    @FindBy(name="password")
+    @FindBy(name = "password")
     WebElement passwordEle;
 
-    @FindBy(xpath="//div[@class='oxd-form-actions orangehrm-login-action']")
+    @FindBy(xpath = "//div[@class='oxd-form-actions orangehrm-login-action']")
     WebElement submit;
 
-    public void loginApplication(String userName,String password){
+    public void loginApplication(String userName, String password) {
 
         useremail.sendKeys(userName);
         passwordEle.sendKeys(password);

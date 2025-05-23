@@ -76,5 +76,23 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.2" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin-messages:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:gherkin:31.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:messages:27.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:testng-xml-formatter:0.3.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:query:13.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:tag-expressions:6.1.2" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-expressions:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:datatable:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-plugin:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:docstring:7.21.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:html-formatter:21.9.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:junit-xml-formatter:0.7.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:ci-environment:10.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-testng:7.21.1" level="project" />
   </component>
 </module>
